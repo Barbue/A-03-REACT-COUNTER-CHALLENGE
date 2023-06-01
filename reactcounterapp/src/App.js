@@ -1,57 +1,21 @@
 //import logo from './logo.svg';
-import './App.css';
-import React from 'react';
-import CounterButton from './components/CounterButton';
+import "./App.css";
+import React from "react";
+import CounterButton from "./components/CounterButton";
 //let tableRow = document.querySelector('tr')
 //let dataCell = document.querySelector('td')
 
 function App() {
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   return (
     <div className="App">
+      <h5>LOGO</h5>
+      <h6>menu</h6>
 
+      <br />
 
-   <h5>LOGO</h5>
-   <h6>menu</h6>
+      <CounterButton />
 
-   <br/>
-    
-   
-      <CounterButton 
- 
- />
-     
-
-   
-
-
- 
-
-   {/* <CounterButton 
+      {/* <CounterButton 
     name = "add 1"
     num = {num}
     setNum = {setNum}
@@ -70,37 +34,11 @@ function App() {
     
     
     /> */}
-
-
-
-
-
-       
-       
-
-
-      
-    
-
-    
-
-
-
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
 
 /* <table>
 <tbody>

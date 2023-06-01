@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import React, {useState} from 'react';
+import React from 'react';
 import CounterButton from './components/CounterButton';
 //let tableRow = document.querySelector('tr')
 //let dataCell = document.querySelector('td')
@@ -9,7 +9,7 @@ function App() {
 
 
   
-const [num, setNum] = useState(0)
+
 
 
 
@@ -39,11 +39,12 @@ const [num, setNum] = useState(0)
    <h6>menu</h6>
 
    <br/>
-
-   <CounterButton 
+    
+   
+      <CounterButton 
  
-   />
-
+ />
+     
 
    
 
@@ -90,3 +91,21 @@ const [num, setNum] = useState(0)
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+/* <table>
+<tbody>
+<tr id="row">
+
+</tr>
+</tbody>
+</table>  */
